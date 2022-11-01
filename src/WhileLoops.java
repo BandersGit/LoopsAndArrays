@@ -37,7 +37,7 @@ public class WhileLoops {
         float iterations = 0;
         float avg;
 
-        while (i < 21) 
+        while (i <= 50) 
         {
             sum += i;
             iterations++;

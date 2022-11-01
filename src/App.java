@@ -9,7 +9,7 @@ public class App {
         //forLoop.countEvenOdd();
         //forLoop.countMult();
         //forLoop.countSumEven();
-        forLoop.countDivSeven();
+        //forLoop.countDivSeven();
         
         //whileLoop.count();
         //whileLoop.countEvenOdd();
