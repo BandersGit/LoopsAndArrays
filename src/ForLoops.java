@@ -8,19 +8,19 @@ public class ForLoops {
         }
     }
 
-    public void countEven(){
+    public void countEvenOdd(){
         
         for (int i = 1; i < 21; i++) {
             
             if (i % 2 == 0) 
             {
                 System.out.println( i + " is even");
-                continue;
+                
             }
             else
             {
                 System.out.println(i + " is odd");
-                continue;
+                
             }
         }
     }
@@ -32,6 +32,43 @@ public class ForLoops {
             int timesNine = i * 9;
             
             System.out.println(i + " x " + 9 + " = " + timesNine);
+        }
+    }
+
+    public void countSumEven(){
+        int sum = 0;
+
+        for (int i = 0; i < 51; i++) {
+            
+            System.out.println("The current number is " + i);
+
+            if (i % 2 == 0) 
+            {
+                sum += i;
+                System.out.println("The sum of the even numbers are " + sum);
+                
+            }
+            else
+            {
+                System.out.println(i + " is odd");
+                
+            }
+
+            System.out.println(" ");
+        }
+    }
+
+    public void countDivSeven(){
+        int sum = 0;
+
+        for (int i = 0; i < 51; i++) {
+
+            if (i % 7 == 0) 
+            {
+                sum += i;
+                System.out.println( i + " is divisible by 7");
+                System.out.println("The current sum is " + sum);    
+            }
         }
     }
 }

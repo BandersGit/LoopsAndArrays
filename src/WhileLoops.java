@@ -11,7 +11,7 @@ public class WhileLoops {
         }
     }
 
-    public void countEven(){
+    public void countEvenOdd(){
 
         int i = 1;
 

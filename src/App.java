@@ -9,12 +9,17 @@ public class App {
         //whileLoop.count();
         //doWhileLoop.count();
 
-        //forLoop.countEven();
-        //whileLoop.countEven();
-        //doWhileLoop.countEven();
+        //forLoop.countEvenOdd();
+        //whileLoop.countEvenOdd();
+        //doWhileLoop.countEvenOdd();
 
         //forLoop.countMult();
-        whileLoop.countSumAvg();
+
+        //whileLoop.countSumAvg();
+
+        //forLoop.countSumEven();
+
+        forLoop.countDivSeven();
         
     }
 }

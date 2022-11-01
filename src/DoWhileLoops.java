@@ -11,7 +11,7 @@ public class DoWhileLoops {
         } while (i < 21);
     }
 
-    public void countEven(){
+    public void countEvenOdd(){
 
         int i = 1;
 
