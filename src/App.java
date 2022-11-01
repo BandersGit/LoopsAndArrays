@@ -6,20 +6,23 @@ public class App {
         DoWhileLoops doWhileLoop = new DoWhileLoops();
 
         //forLoop.count();
-        //whileLoop.count();
-        //doWhileLoop.count();
-
         //forLoop.countEvenOdd();
-        //whileLoop.countEvenOdd();
-        //doWhileLoop.countEvenOdd();
-
         //forLoop.countMult();
-
-        //whileLoop.countSumAvg();
-
         //forLoop.countSumEven();
-
         forLoop.countDivSeven();
+        
+        //whileLoop.count();
+        //whileLoop.countEvenOdd();
+        //whileLoop.countSumAvg();        
+        
+        //doWhileLoop.count();
+        //doWhileLoop.countEvenOdd();
+        
+        
+
+        
+
+       
         
     }
 }
