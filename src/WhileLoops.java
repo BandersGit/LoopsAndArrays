@@ -1,10 +1,13 @@
-public class ForLoops {
+public class WhileLoops {
     
     public void count(){
 
-        for (int i = 1; i < 21; i++) 
+        int i = 1;
+
+        while (i < 21) 
         {
             System.out.println(i);
+            i++;
         }
     }
 }
