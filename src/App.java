@@ -7,6 +7,14 @@ public class App {
 
         //forLoop.count();
         //whileLoop.count();
-        doWhileLoop.count();
+        //doWhileLoop.count();
+
+        //forLoop.countEven();
+        //whileLoop.countEven();
+        //doWhileLoop.countEven();
+
+        //forLoop.countMult();
+        whileLoop.countSumAvg();
+        
     }
 }
