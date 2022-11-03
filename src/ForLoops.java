@@ -53,4 +53,18 @@ public class ForLoops {
             }
         }
     }
+
+    public void printArray(){
+        String[] names = new String[5];
+
+        names[0] = "Andreas";
+        names[1] = "Lollo";
+        names[2] = "Torkel";
+        names[3] = "Ulrika";
+        names[4] = "Svante";
+
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
+    }
 }

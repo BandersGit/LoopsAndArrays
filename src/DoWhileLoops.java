@@ -29,4 +29,23 @@ public class DoWhileLoops {
             continue;
         } while (i < 21);
     }
+
+    public void squareOdd(){
+
+        int i = 0;
+
+        do 
+        {
+            if (i % 2 == 0) 
+            {
+                
+            }
+            else
+            {
+                System.out.println(i + " squared is: " + i*i);
+            }
+            i++;
+            continue;
+        } while (i <= 10);
+    }
 }

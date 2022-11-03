@@ -10,13 +10,17 @@ public class App {
         //forLoop.countMult();
         //forLoop.countSumEven();
         //forLoop.countDivSeven();
+        //forLoop.printArray();
+        
         
         //whileLoop.count();
         //whileLoop.countEvenOdd();
-        //whileLoop.countSumAvg();        
+        //whileLoop.countSumAvg();
+        whileLoop.findLargest();        
         
         //doWhileLoop.count();
         //doWhileLoop.countEvenOdd();
+        //doWhileLoop.squareOdd();
         
         
 

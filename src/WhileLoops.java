@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class WhileLoops {
     
     public void count(){
@@ -48,6 +50,27 @@ public class WhileLoops {
             System.out.println(" ");
             i++;
         }
+    }
+
+    public void findLargest(){
+        Integer[] numbers = new Integer[10];
+        Random generator = new Random();
+        int loopControl = 0;
+        int largestNumber = 0;
+        
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = generator.nextInt(100);
+            System.out.println(numbers[i]);
+        }
+
+        while (loopControl <= 9) {
+            if (largestNumber <= numbers[loopControl]) {
+                largestNumber = numbers[loopControl];
+            }
+            loopControl++;
+        }
+
+        System.out.println("The largest number in the array is " + largestNumber);
     }
 
 
